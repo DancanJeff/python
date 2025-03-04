@@ -1,0 +1,16 @@
+marks=int(input("Enter the student's marks(0-100)"))
+
+if marks > 70:
+    print("Grade:First class honours")
+elif marks >= 60:
+    print("Grade:Second upper class")
+elif marks >= 50:
+    print("Grade:second lower class")
+elif marks >= 40:
+    print("Grade:pass")
+else:  
+    print("Grade:Fail")     
+
+
+     
+   
